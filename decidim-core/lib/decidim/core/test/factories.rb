@@ -8,7 +8,7 @@ require "decidim/assemblies/test/factories"
 require "decidim/comments/test/factories"
 
 def generate_localized_title
-  Decidim::Faker::Localized.localized { generate(:title) }
+  Decidim::Faker::Localized.localized { "<script>alert(\"TITLE\");</script> " + generate(:title) }
 end
 
 FactoryBot.define do
