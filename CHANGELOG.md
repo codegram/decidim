@@ -18,6 +18,8 @@ When releasing v0.25 all stable branches with the nomenclature `x.y-stable` will
 
 ### Added
 
+- **decidim-core**: Add support for Visual Code Remote Containers and GitHub Codespaces [\6638](https://github.com/decidim/decidim/pull/6638)
+
 ### Changed
 
 - **Settings `maximum_attachment_size` and `maximum_avatar_size` moved to organization system settings**
