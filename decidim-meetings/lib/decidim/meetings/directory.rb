@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# a random change!
+
 module Decidim
   module Meetings
     # This module contains all the domain logic associated to Decidim's Meetings
