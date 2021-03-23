@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# a change on the core module
+
 require "decidim/core/engine"
 require "decidim/core/api"
 require "decidim/core/version"
